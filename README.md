@@ -7,7 +7,7 @@
 - **R2 (`hashbackup_R2.py`)** – Adds workflow menu for guided operations.  
 - **R3 (`hashbackup_R3.py`)** – Adds default options for faster, simpler usage, enhanced interactive workflow, improved logging, and refined export options (HTML, CSV, JSON).  
 - **R4 (`hashbackup_R4.py`)** – Advanced interactive menu, full Norton-Commander–style browsing, and improved SSH/backup handling.  
-- **R5 (`hashbackup_R5.py`)** – Extends Norton-Commander style to destination folders (if local).
+- **25.4.0 (`hashbackup_25.4.0.py`)** – Extends Norton-Commander style to destination folders (if local).
 
 **Dependencies:** Python 3.8+; optional `paramiko` for SSH functionality (`pip install paramiko`).  
 
@@ -25,5 +25,5 @@ python3 hashbackup_R3.py
 # Advanced interactive mode with Norton-Commander–style browsing
 python3 hashbackup_R4.py
 
-# Command-line mode
-python3 hashbackup_R4.py 
+# Command-line mode (latest)
+python3 hashbackup_25.4.0.py
